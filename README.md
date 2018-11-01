@@ -16,7 +16,7 @@ This is a modified version [this plugin Plugin (MIT)](https://github.com/nilshoe
 ## Installation
 
 ### Download the zip
-1. Download and open [Text styles import and export to JSON.zip](https://github.com/KevinvBre/Sketch-textstyles-import-exportarchive/master.zip)
+1. Download and open [Text styles import and export to JSON.zip](https://github.com/KevinvBre/Sketch-textstyles-import-export/archive/master.zip)
 2. Double click on the plugin and open up Sketch.
 
 ## How to Use
