@@ -1,0 +1,41 @@
+{
+  "name" : "Text styles import and export to JSON",
+  "description" : "Text styles import and export to JSON",
+  "author" : "Kevin van Breemaat/Nils Hoenson/Yummygum",
+  "homepage": "https://github.com/nilshoenson/shared-text-styles",
+  "version": "0.1",
+  "identifier": "nl.kevinvanbreemaat.importexporttextstyles",
+  "appcast": "https://raw.githubusercontent.com/KevinvBre/Sketch-Rename-Artboards/master/appcast.xml",
+  "icon": "icon.png",
+  "commands" : [
+    {
+      "script" : "import.js",
+      "handler" : "importFonts",
+      "shortcut": "cmd ctrl alt n",
+      "name" : "Import Text Styles...",
+      "identifier" : "importFonts"
+    },
+    {
+        "name": "About",
+        "identifier": "About",
+        "script": "import.js",
+        "handler": "website"
+    },
+    {
+      "script" : "export.cocoascript",
+      "handler" : "exportFonts",
+      "shortcut": "cmd ctrl alt e",
+      "name" : "Export Text Styles...",
+      "identifier" : "exportFonts"
+    }
+  ],
+  "menu": {
+        "title": "Text styles",
+        "items": [
+          "importFonts",
+          "exportFonts",
+          "-",
+          "About"
+        ]
+      }
+}
