@@ -1,5 +1,5 @@
 {
-  "name" : "Text styles import and export to JSON",
+  "name" : "Textstyles import and export to JSON",
   "description" : "Text styles import and export to JSON",
   "author" : "Kevin van Breemaat/Nils Hoenson/Yummygum",
   "homepage": "https://github.com/nilshoenson/shared-text-styles",
@@ -30,7 +30,7 @@
     }
   ],
   "menu": {
-        "title": "Text styles",
+        "title": "Export/Import Textstyles",
         "items": [
           "importFonts",
           "exportFonts",
